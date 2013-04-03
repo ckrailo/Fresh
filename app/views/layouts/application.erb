@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link href="stylesheets/bootstrap.css" rel="stylesheet" media="screen">
+<link href="stylesheets/bootstrap-responsive.css" rel="stylesheet" media="screen">
+<script type="text/javascript" src="../javascripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../javascripts/simpleCart_uncompressed.js"></script>
+
+
+
+<script type="text/javascript">
+  simpleCart({
+    checkout: {
+      type: "PayPal",
+      email: "Freshkaufee@gmail.com"
+    },
+    currency: "USD", /* insert your function call here */
+
+});
+
+
+</script>
+
+
+<script>
+myItem.quantity();
+</script>
+
+<script type="text/javascript">
+simpleCart = new cart("Freshkaufee@gmail.com");
+</script>
+
+
+</head>
+
+<body>
+	<div class="login">
+	
+</div>
+	<div class="container">
+	<div class="head-nav">
+		<ul class="nav nav-pills">
+		<li> <a href="/">The GRIND</a></li>
+		 						<li><a href="/shoppe">Shoppe</a></li>
+ 						<img class="logo" src="../images/logo.png"></li>
+		<li><a href="/">Gallery</a></li>
+				<li><a href="/">Contact</a></li>
+		 				<li><a href="/blog">Blog</a>
+		 			</ul>
+		 		</div>
+		 	</div>
+
+<%= yield %>
+<div class="footer">
+  <img class="footer-logo" src="../images/logo.png">
+</div>
+	</body>
+	</html>
