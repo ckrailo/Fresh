@@ -17,9 +17,6 @@ GEM
     bourne (1.4.0)
       mocha (~> 0.13.2)
     builder (3.0.4)
-    carrierwave (0.8.0)
-      activemodel (>= 3.2.0)
-      activesupport (>= 3.2.0)
     commonjs (0.2.6)
     erubis (2.7.0)
     http_router (0.11.0)
@@ -108,7 +105,6 @@ PLATFORMS
 DEPENDENCIES
   activerecord (>= 3.1)
   bcrypt-ruby
-  carrierwave
   erubis (~> 2.7.0)
   less
   padrino (= 0.11.0)
